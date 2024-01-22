@@ -26,6 +26,7 @@ pre {
 h2 {
   margin: 0 0 0.5rem 0;
 }
+
 p {
   margin: 0;
 }
@@ -56,6 +57,17 @@ p {
     'skills experience'
     'skills experience'
     '. education';
+
+  @media (width < 1024px) {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'bio'
+      'skills'
+      'experience'
+      'description '
+      'education';
+  }
 }
 
 .bio {
@@ -86,17 +98,20 @@ p {
     border: 1px solid gold;
   }
 }
+
 .contact-info {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  
+
 }
+
 .contact-info div {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
+
 .description {
   grid-area: description;
 }
@@ -121,10 +136,22 @@ p {
 .job-head__line {
   display: flex;
   justify-content: space-between;
+  @media (width < 1024px) {
+    flex-flow: column wrap;
+    gap: 0.5rem;
+
+  }
 }
 
 .job-head__line+.job-head__line {
   margin-top: 0.3rem;
+}
+
+.job-head__line .skill-set {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .education {
@@ -135,12 +162,14 @@ p {
   width: 120px;
   height: 120px;
   border-radius: 10px;
+  margin-bottom: 1rem;
 }
 
 .icon {
   color: #000;
-  width: 1rem;
-  height: 1rem;
+  width: 22px;
+  height: 22px;
+
   @media (prefers-color-scheme: dark) {
     color: #fff;
   }
@@ -155,9 +184,9 @@ p {
 }
 
 .link {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .link:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
