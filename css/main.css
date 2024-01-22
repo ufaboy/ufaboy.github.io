@@ -136,6 +136,7 @@ p {
 .job-head__line {
   display: flex;
   justify-content: space-between;
+
   @media (width < 1024px) {
     flex-flow: column wrap;
     gap: 0.5rem;
@@ -181,6 +182,10 @@ p {
 
 .text-grey {
   color: #948d8d;
+
+  @media (prefers-color-scheme: dark) {
+    color: #b1aaaa;
+  }
 }
 
 .link {
