@@ -172,7 +172,7 @@ p {
   height: 22px;
 
   @media (prefers-color-scheme: dark) {
-    color: #fff;
+    color: inherit;
   }
 }
 
