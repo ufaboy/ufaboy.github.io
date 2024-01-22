@@ -148,7 +148,7 @@ p {
   margin-top: 0.3rem;
 }
 
-.job-head__line .skill-set {
+.job-head__line .skill-set, .job-head__line div {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
