@@ -143,6 +143,10 @@ address {
     gap: 0.5rem;
   }
 }
+.job-head__title {
+  display: flex;
+  justify-content: space-between;
+}
 
 .inline {
   flex-flow: row nowrap;
