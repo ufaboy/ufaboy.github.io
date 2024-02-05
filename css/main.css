@@ -23,7 +23,8 @@ pre {
   margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 0 0 0.5rem 0;
 }
 
@@ -49,7 +50,7 @@ address {
 .main {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 450px auto;
+  grid-template-rows: 475px auto;
   gap: 0.5rem;
   grid-template-areas:
     'bio description'
@@ -140,8 +141,11 @@ address {
   @media (width < 1024px) {
     flex-flow: column wrap;
     gap: 0.5rem;
-
   }
+}
+
+.inline {
+  flex-flow: row nowrap;
 }
 
 .job-head__line+.job-head__line {
@@ -214,6 +218,7 @@ address {
   width: 100%;
   left: 0;
 }
+
 @media (prefers-color-scheme: dark) {
   .link::after {
     background-color: #a8c7fa;
