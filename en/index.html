@@ -5,41 +5,43 @@
     <title>Azat Kashapov</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
     <meta property="og:title" content="Azat Kashapov - Frontend Engineer" />
     <meta property="og:type" content="profile" />
     <meta property="og:url" content="https://ufaboy.github.io" />
-    <meta property="og:image" content="https://ufaboy.github.io/img//avatar.png"/>
-    <meta property="og:description" content="Experienced Frontend developer specializing in Vue and Nuxt."/>
+    <meta
+      property="og:image"
+      content="https://ufaboy.github.io/img//avatar.png"
+    />
+    <meta
+      property="og:description"
+      content="Experienced Frontend developer specializing in Vue and Nuxt."
+    />
     <meta property="og:locale" content="en_EN" />
     <meta property="profile:first_name" content="Azat" />
     <meta property="profile:last_name" content="Kashapov" />
-
     <link rel="manifest" href="site.webmanifest" />
     <link rel="apple-touch-icon" href="icon.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-
     <link rel="stylesheet" href="../css/main.css" />
-
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <main class="main">
       <section class="bio">
-        <div class="profile">
+        <figure class="profile">
           <img
             src="/img/avatar.png"
-            alt="Azat's Photo"
+            alt="Azat Kashapov's Photo"
             class="profile-photo"
           />
-          <div>
-            <h2 class="name">Azat Kashapov</h2>
+          <figcaption>
+            <h1 class="name">Azat Kashapov</h1>
             <div class="position">Software Engineer</div>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
         <hr />
-        <div class="contact-info">
+        <address class="contact-info">
           <div>
             <svg class="icon" fill="none">
               <use xlink:href="/img/iconSprite.svg#mail" />
@@ -66,9 +68,17 @@
             <svg class="icon" fill="none">
               <use xlink:href="/img/iconSprite.svg#location" />
             </svg>
-            Bar, Montenegro
+            <a href="https://maps.app.goo.gl/Z7gLvs9sgq6Y9rUc6" class="link">
+              Bar, Montenegro
+            </a>
           </div>
-        </div>
+          <div>
+            <svg class="icon" fill="none">
+              <use xlink:href="/img/iconSprite.svg#timezone" />
+            </svg>
+            Timezone: <abbr title="GMT+1/2">CET/CEST</abbr> 
+          </div>
+        </address>
       </section>
       <section class="skills">
         <h2>Skills</h2>
@@ -88,28 +98,38 @@
         </div>
       </section>
       <section class="description">
-        <p>
-          What I can offer:<br />
-          <br />
-          Awesome layout;<br />
-          Clean, neat Vue code (strictly following the Vue style guide);<br />
-          Proper TypeScript (won't use 'any' everywhere);<br />
-          Quality refactoring for your legacy code;<br />
-          I can make Web Components, Web Extensions, and npm library
-          (components, any reusable code)<br />
-          Clear and transparent, friendly communication;<br />
-          If I don’t know something, I learn it until sparks fly;<br />
-          Realistic time estimates for tasks;<br />
-          <br />
-          What I'm looking for:<br />
-          <br />
-          A product that the team is passionate about, beloved and
-          well-maintained;<br />
-          A great team, without quarrels and conflicts;<br />
-          Remote work;<br />
-          In summary, I want a project where I can truly invest myself and which
-          will be interesting to work on.<br />
-        </p>
+        <h2>What I&nbsp;can offer:</h2>
+        <ul>
+          <li>Awesome layout;</li>
+          <li>
+            Clean, neat Vue code (strictly following the Vue style guide);
+          </li>
+          <li>Proper TypeScript (won&rsquo;t use 'any' everywhere);</li>
+          <li>Quality refactoring for your legacy code;</li>
+          <li>
+            I&nbsp;can make Web Components, Web Extensions, and npm library
+            (components, any reusable code);
+          </li>
+          <li>Clear and transparent, friendly communication;</li>
+          <li>
+            If&nbsp;I&nbsp;don’t&nbsp;know something, I&nbsp;learn it&nbsp;until
+            sparks fly;
+          </li>
+          <li>Realistic time estimates for tasks;</li>
+        </ul>
+        <h2>What I&rsquo;m looking for:</h2>
+        <ul>
+          <li>
+            A&nbsp;product that the team is&nbsp;passionate about, beloved and
+            <nobr>well-maintained</nobr>;
+          </li>
+          <li>A&nbsp;great team, without quarrels and conflicts;</li>
+          <li>Remote work;</li>
+          <li>
+            In&nbsp;summary, I&nbsp;want a&nbsp;project where I&nbsp;can truly
+            invest myself and which will be&nbsp;interesting to&nbsp;work on.
+          </li>
+        </ul>
       </section>
       <section class="experience">
         <h2>Experience</h2>
@@ -130,7 +150,7 @@
                 <svg class="icon" fill="none">
                   <use xlink:href="../img/iconSprite.svg#work" />
                 </svg>
-                <b>ForestVPN</b>
+                <a href="https://forestvpn.com" class="link">ForestVPN</a>
               </div>
               <div>
                 <svg class="icon" fill="none">
@@ -141,16 +161,52 @@
             </div>
           </div>
           <div class="job-description">
-            Created website (dashboard) for users. Standard set: tables, charts,
-            etc. An interesting experience for me to create a multilingual site
-            (including RTL)<br />
-            Created browser extension VPN app (similar to a mobile app).
-            Incredibly interesting.<br />
-            Created website for cloud services VPN. Here I had to become a
-            product owner in addition. I started the work without a design
-            layout, but just with an idea. There seems to be no such
-            functionality (we could not find it), I came up with a functional
-            from zero. Made a lot of mistakes, but achieved the result.
+            <p>
+              Created website (dashboard) for users. Standard set: tables,
+              charts, etc. An&nbsp;interesting experience for
+              me&nbsp;to&nbsp;create a&nbsp;multilingual site (including RTL).
+            </p>
+            <p>
+              Created browser extension VPN app (similar to&nbsp;a&nbsp;mobile
+              app). Incredibly interesting.
+            </p>
+            <p>
+              Created website for cloud services VPN. Here I&nbsp;had
+              to&nbsp;become a&nbsp;product owner in&nbsp;addition.
+              I&nbsp;started the work without a&nbsp;design layout, but just
+              with an&nbsp;idea. There seems to&nbsp;be&nbsp;no&nbsp;such
+              functionality (we&nbsp;could not find it), I&nbsp;came
+              up&nbsp;with a&nbsp;functional from zero. Made a&nbsp;lot
+              of&nbsp;mistakes, but achieved the result.
+            </p>
+            <p>Did a&nbsp;few side projects as&nbsp;well:</p>
+            <ul>
+              <li>
+                Website to&nbsp;find OF&nbsp;models (Nuxt3), brought
+                it&nbsp;to&nbsp;release, now gone to&nbsp;<abbr
+                  title="Search engine optimization"
+                  lang="en"
+                  >SEO</abbr
+                >
+                optimisers.
+              </li>
+              <li>
+                2 websites for buying crypto (Bind, Viking FEHU). From
+                interesting: work with Metamask, and GraphQL
+              </li>
+              <li>
+                Support site/admin 1.to in&nbsp;Aleo pool. Added connection
+                to&nbsp;Leo Wallet, and standard sign, payout (React).
+              </li>
+              <li>
+                Support for the control panel of&nbsp;SMS mailing service
+                (Nuxt2, I&nbsp;have no&nbsp;idea why the website was raised
+                on&nbsp;it).
+              </li>
+              <li>
+                Website search engine for books, to&nbsp;attract traffic (Nuxt3)
+              </li>
+            </ul>
           </div>
         </div>
         <hr class="hr" />
@@ -170,7 +226,7 @@
                 <svg class="icon" fill="none">
                   <use xlink:href="../img/iconSprite.svg#work" />
                 </svg>
-                <b>Letteros</b>
+                <a href="https://letteros.com" class="link">Letteros</a>
               </div>
               <div>
                 <svg class="icon" fill="none">
@@ -181,13 +237,26 @@
             </div>
           </div>
           <div class="job-description">
-            Front: Based on legacy (Jquery, without ES5 features), and other
-            references, I made a SPA email constructor-editor. Written in Vue2,
-            Vuetify, considering future migration to Vue3.<br />
-            Back: For 1/3 of tasks I write REST API on Yii2, for the remaining
-            2/3 I participate more with consultations, advice, code reviews and
-            ideas. In general, the usual API, with local nuances, but without
-            any special problems.
+            <p>
+              <strong>Front:</strong> Based on&nbsp;legacy (Jquery, without ES5
+              features), and other references, I&nbsp;made a&nbsp;SPA email
+              <nobr>constructor-editor</nobr>. Written in&nbsp;Vue2, Vuetify,
+              considering future migration to&nbsp;Vue3.
+            </p>
+            <p>
+              <strong>Back:</strong> For 1/3 of&nbsp;tasks I&nbsp;write
+              <abbr
+                title="Representational state transfer application programming interface"
+                lang="en"
+                >REST API</abbr
+              >
+              on&nbsp;Yii2, for the remaining 2/3 I&nbsp;participate more with
+              consultations, advice, code reviews and ideas. In&nbsp;general,
+              the usual
+              <abbr title="Application programming interface" lang="en"
+                >API</abbr
+              >, with local nuances, but without any special problems.
+            </p>
           </div>
         </div>
         <hr class="hr" />
@@ -208,7 +277,7 @@
                 <svg class="icon" fill="none">
                   <use xlink:href="../img/iconSprite.svg#work" />
                 </svg>
-                <b>2UIT</b>
+                <a href="https://2uit.ru" class="link">2UIT</a>
               </div>
               <div>
                 <svg class="icon" fill="none">
@@ -219,19 +288,34 @@
             </div>
           </div>
           <div class="job-description">
-            Development of CRM for real estate agency "Perspektiva24". First
-            experience with the frontend. Made a lot of pages on Vue2.
-            Integration of various services (Yandex Map, IP telephony, call
-            record storage, etc.) Later I joined to finalize the backend on
-            Yii2. Refinement of ready-made models, controllers, views, creation
-            of new ones, refactoring of both your own and someone else's code.
-            The difficulties are mostly in a huge code base, a complex hierarchy
-            of entities, well, you can say highload. Decision performance was
-            very important<br />
-            CRM development for lr-service.su. Something like "UBER" for masters
-            of repair and installation of equipment Wrote the entire front in
-            Nuxt, and most of the back end in Yii2. The back is generally a
-            simple REST API, but there were non-trivial and interesting tasks.
+            <p>
+              Development of&nbsp;CRM for real estate agency
+              <a href="https://2uit.ru/realty-crm" class="link">Perspektiva24</a
+              >. First experience with the frontend. Made a&nbsp;lot
+              of&nbsp;pages on&nbsp;Vue2. Integration of&nbsp;various services
+              (Yandex Map, IP&nbsp;telephony, call record storage, etc.) Later
+              I&nbsp;joined to&nbsp;finalize the backend on&nbsp;Yii2.
+              Refinement of&nbsp;<nobr>ready-made</nobr> models, controllers,
+              views, creation of&nbsp;new ones, refactoring of&nbsp;both your
+              own and someone else&rsquo;s code. The difficulties are mostly
+              in&nbsp;a&nbsp;huge code base, a&nbsp;complex hierarchy
+              of&nbsp;entities, well, you can say highload.
+            </p>
+            <p>
+              CRM development for
+              <a href="https://2uit.ru/lr-mobile-webservice" class="link"
+                >LR&nbsp;Service</a
+              >
+              Something like &laquo;UBER&raquo; for masters of&nbsp;repair and
+              installation of&nbsp;equipment Wrote the entire front
+              in&nbsp;Nuxt, and most of&nbsp;the back end in&nbsp;Yii2. The back
+              is&nbsp;generally a&nbsp;simple
+              <abbr
+                title="Representational state transfer application programming interface"
+                lang="en"
+                >REST API</abbr
+              >, but there were <nobr>non-trivial</nobr> and interesting tasks.
+            </p>
           </div>
         </div>
         <hr class="hr" />
@@ -250,7 +334,7 @@
                 <svg class="icon" fill="none">
                   <use xlink:href="../img/iconSprite.svg#work" />
                 </svg>
-                <b>Freelance</b>
+                <a href="#" class="link">Freelance</a>
               </div>
               <div>
                 <svg class="icon" fill="none">
@@ -261,16 +345,19 @@
             </div>
           </div>
           <div class="job-description">
-            At first, I made a website for a friend's company, then I started to
-            perform orders from the stock exchange. I made simple pages based on
-            templates, because I knew little
+            <p>
+              At&nbsp;first, I&nbsp;made a&nbsp;website for
+              a&nbsp;friend&rsquo;s company, then I&nbsp;started to perform
+              orders from the stock exchange. I&nbsp;made simple pages based on
+              templates, because I&nbsp;knew little
+            </p>
           </div>
         </div>
       </section>
       <section class="education">
         <h2>Education</h2>
         <div class="education-degree">
-          Bachelor of Science - Computer Science
+          <p>Bachelor of&nbsp;Science&nbsp;&mdash; Computer Science</p>
         </div>
         <div class="education-school">UGATU, Ufa</div>
       </section>

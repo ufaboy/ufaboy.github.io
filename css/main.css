@@ -10,7 +10,7 @@ html {
 @media (prefers-color-scheme: dark) {
   html {
     color: #fff;
-    background-color: #333;
+    background-color: #1f1f1f;
   }
 }
 
@@ -23,12 +23,12 @@ pre {
   margin: 0;
 }
 
-h2 {
+h1, h2 {
   margin: 0 0 0.5rem 0;
 }
 
-p {
-  margin: 0;
+address {
+  font-style: normal;
 }
 
 .bio,
@@ -42,7 +42,7 @@ p {
   box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.2);
 
   @media (prefers-color-scheme: dark) {
-    background-color: #514d4d;
+    background-color: #28292a;
   }
 }
 
@@ -102,7 +102,7 @@ p {
 .contact-info {
   display: flex;
   flex-direction: column;
-  gap: 0.25rem;
+  gap: 0.3rem;
 
 }
 
@@ -148,7 +148,8 @@ p {
   margin-top: 0.3rem;
 }
 
-.job-head__line .skill-set, .job-head__line div {
+.job-head__line .skill-set,
+.job-head__line div {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -190,8 +191,31 @@ p {
 
 .link {
   text-decoration: none;
+  position: relative;
+  color: #0b57d0;
+
+  @media (prefers-color-scheme: dark) {
+    color: #a8c7fa;
+  }
 }
 
-.link:hover {
-  text-decoration: underline;
+.link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #0b57d0;
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+  left: 0;
+}
+@media (prefers-color-scheme: dark) {
+  .link::after {
+    background-color: #a8c7fa;
+  }
 }
