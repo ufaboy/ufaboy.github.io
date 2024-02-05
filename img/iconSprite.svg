@@ -47,6 +47,6 @@
     @media (prefers-color-scheme: dark) {
     .path { fill: #f0f0f0 !important; }
     }
-    .st0{fill-rule:evenodd;clip-rule:evenodd;}
+    .st0 {fill-rule:evenodd;clip-rule:evenodd;}
 </style>
 </svg>
