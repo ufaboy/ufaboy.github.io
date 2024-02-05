@@ -73,6 +73,9 @@ address {
 
 .bio {
   grid-area: bio;
+  @media (width < 1024px) {
+    padding: 1rem 1rem 0.3rem 1rem;
+  }
 }
 
 .skill {
