@@ -207,7 +207,11 @@ address {
     color: #b1aaaa;
   }
 }
-
+.contact-block {
+  @media (width < 1024px) {
+    padding: 1rem 0;
+  }
+}
 .link {
   text-decoration: none;
   position: relative;
