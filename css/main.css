@@ -50,7 +50,7 @@ address {
 .main {
   display: grid;
   grid-template-columns: 300px auto;
-  grid-template-rows: 475px auto;
+  grid-template-rows: 440px auto;
   gap: 0.5rem;
   grid-template-areas:
     'bio description'
@@ -59,7 +59,7 @@ address {
     'skills experience'
     '. education';
 
-  @media (width < 1024px) {
+  @media (width < 1023px) {
     grid-template-columns: auto;
     grid-template-rows: auto auto;
     grid-template-areas:
@@ -73,7 +73,7 @@ address {
 
 .bio {
   grid-area: bio;
-  @media (width < 1024px) {
+  @media (width < 1023px) {
     padding: 1rem 1rem 0.3rem 1rem;
   }
 }
@@ -141,7 +141,7 @@ address {
   display: flex;
   justify-content: space-between;
 
-  @media (width < 1024px) {
+  @media (width < 1023px) {
     flex-flow: column wrap;
     gap: 0.5rem;
   }
@@ -211,7 +211,7 @@ address {
   }
 }
 .contact-block {
-  @media (width < 1024px) {
+  @media (width < 1023px) {
     padding: 0.7rem 0;
   }
 }
