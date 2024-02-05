@@ -208,6 +208,7 @@ address {
   text-decoration: none;
   position: relative;
   color: #0b57d0;
+  line-height: 21px;
 
   @media (prefers-color-scheme: dark) {
     color: #a8c7fa;
